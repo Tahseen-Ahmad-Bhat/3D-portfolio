@@ -26,16 +26,9 @@ const Hero = () => {
             className={`${styles.heroSubText} mt-2 text-white-100 leading-0`}
             // style={{ fontSize: "1.5rem" }}
           >
-            An enthusiastic <br />
+            An enthusiastic <br className="md:hidden block" />
             <TypeAnimation
-              sequence={[
-                "Frontend developer",
-                1000,
-                "Backend developer",
-                1000,
-                "Fullstack developer",
-                1000,
-              ]}
+              sequence={["Frontend", 1000, "Backend", 1000, "Fullstack", 1000]}
               wrapper="span"
               speed={{ type: "keyStrokeDelayInMs", value: 150 }}
               style={{ color: "#FF66FF" }}
@@ -43,6 +36,7 @@ const Hero = () => {
               cursor={true}
               omitDeletionAnimation={true}
             />{" "}
+            developer
             <br /> proficient in creating efficient and dynamic web
             applications.
           </p>
