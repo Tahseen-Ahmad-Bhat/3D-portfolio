@@ -16,11 +16,11 @@ const Hero = () => {
           <div className="w-1 sm:h-52 h-28 violet-gradient" />
         </div>
 
-        <div className=" space-y-6">
+        <div className="space-y-6">
           <h1
             className={`${styles.heroHeadText} text-white sm:text-5xl text-3xl`}
           >
-            Hi, I'm<span className="text-[#915eff]">Tahseen</span>
+            Hi, I'm<span className="text-[#4cb87b]">Tahseen</span>
           </h1>
           <p
             className={`${styles.heroSubText} mt-2 text-white-100 leading-0`}
@@ -35,7 +35,7 @@ const Hero = () => {
               repeat={Infinity}
               cursor={true}
               omitDeletionAnimation={true}
-            />{" "}
+            />
             developer
             <br /> proficient in creating efficient and dynamic web
             applications.
